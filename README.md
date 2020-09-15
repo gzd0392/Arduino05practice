@@ -1,10 +1,1 @@
-int ledPin = 7;
-void setup() {
-       pinMode(ledPin, OUTPUT);
-}
-void loop() {
-       digitalWrite(ledPin,HIGH);
-       delay(200);
-       digitalWrite(ledPin,LOW);
-       delay(200);
-}
+20203027 
