@@ -33,8 +33,8 @@
 #define _INTERVAL_SERIAL 100       //[3030]시리얼 플로터 갱신간격
 
 // PID parameters
-#define _KP 1.3 //4  [3039] 비례 제어의 상수 값
-#define _KD 35.5   //27.0
+#define _KP 1.4 //4  [3039] 비례 제어의 상수 값
+#define _KD 40   //27.0
 
 //////////////////////
 // global variables //
