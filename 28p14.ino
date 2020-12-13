@@ -24,8 +24,8 @@
 #define _DUTY_MAX 1875    //[3031] 서보 최대값
 
 // Servo speed control
-#define _SERVO_ANGLE 360   //[3030] servo angle limit 실제 서보의 동작크기
-#define _SERVO_SPEED 360        // [3040] 서보의 각속도(초당 각도 변화량)360
+#define _SERVO_ANGLE 400   //[3030] servo angle limit 실제 서보의 동작크기
+#define _SERVO_SPEED 400        // [3040] 서보의 각속도(초당 각도 변화량)360
 
 // Event periods
 #define _INTERVAL_DIST 20   //[3039]적외선 센서 측정 간격
@@ -34,7 +34,7 @@
 
 // PID parameters
 #define _KP 2//4  [3039] 비례 제어의 상수 값
-#define _KD 50
+#define _KD 55
 //35.5
 #define _KI 0.5
 #define _ITERM_MAX 20
